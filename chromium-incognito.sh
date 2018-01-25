@@ -17,7 +17,7 @@ temp_profile=$(mktemp -d)
 # * Avoid annoyances: touch ../First\ Run
 
 # Copy standard shared settings and extensions
-cp -r `dirname $0`/settings/* $temp_profile/.
+cp -r /home/habba/0_\ Chromium\ incognito/settings/* $temp_profile/.
 
 # Start as incognito
 chromium-browser --incognito --user-data-dir=$temp_profile --no-proxy-server
