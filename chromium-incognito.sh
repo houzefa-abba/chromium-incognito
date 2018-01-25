@@ -16,5 +16,6 @@ temp_profile=$(mktemp -d)
 
 # Copy standard shared settings and extensions
 cp -r `dirname $0`/settings/* $temp_profile/.
+
 # Start as incognito
-chromium --incognito --user-data-dir=$temp_profile --no-proxy-server 
+chromium-browser --incognito --user-data-dir=$temp_profile --no-proxy-server
