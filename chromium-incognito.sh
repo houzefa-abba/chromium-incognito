@@ -1,5 +1,7 @@
 #!/bin/sh
 
+# <https://github.com/MacWeber/chromium-incognito/blob/master/chromium-incognito.sh>
+
 # Allows to start chromium as incognito with a different cookies jar for each
 # new window.
 
