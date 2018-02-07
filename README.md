@@ -34,3 +34,14 @@ Just make it executable:
  
 ``./chromium-incognito.sh``
 
+
+bash alias
+----------
+
+Add to your `.bashrc`:
+
+```bash
+alias cprivate='/home/habba/0_\ Chromium\ incognito/chromium-incognito.sh & exit'
+```
+
+And enjoy! =)
